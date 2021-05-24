@@ -1,0 +1,200 @@
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+
+    background-color: white;
+    color: white;
+}
+
+.register-logo img {
+    width: 480px;
+    height: 400px;
+    margin-right: 50px;
+}
+.register-right { 
+    background-color: #642D64;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+}
+
+.register-right h1 {
+    font-family: 'Roboto Slab';
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.register-right h4 {
+    font-family: 'Roboto Slab';
+    font-weight: 300;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #e1e1e6;
+}
+
+.register-registerInputEmail{
+    display: flex;
+    align-items: center;
+    color: #642D64;
+    background-color: white;
+    border-radius: 25px;
+    padding: 3px;
+    width: 98%;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.register-registerInputEmail2{
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: #642D64;
+    border-radius: 25px;
+    padding: 3px;
+    width: 98%;
+    height: 50px;
+}
+
+.register-registerInputEmail svg {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.register-registerInputEmail input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: #1566E0;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.register-registerInputPassword {
+    display: flex;
+    align-items: center;
+    color: #642D64;
+    background-color: white;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 5px;
+    width: 98%;
+    height: 50px;
+    border-radius: 25px;
+    margin-bottom: 1.5px;
+}
+
+.register-registerInputPassword svg {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.register-registerInputPassword input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color:  #1566E0;
+    border: none;
+    font-size: 17px;
+    margin-left: 12px;
+    margin-right: 10px;
+
+}
+
+.register-registerInputPassword2 {
+    display: flex;
+    align-items: center;
+    color: #642D64;
+    background-color: white;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 5px;
+    width: 98%;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.register-registerInputPassword2 svg {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.register-registerInputPassword2 input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color:  #1566E0;
+    border: none;
+    font-size: 17px;
+    margin-left: 12px;
+    margin-right: 10px;
+}
+
+.register-right button {
+    width: 98%;
+    background-color: white;
+    color: #642D64;
+    font-weight: 800;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 18px;
+    margin-top: 5px;
+    border: none;
+
+    outline-width: 0;
+}
+
+.register-right button:hover {
+    background-color: #1566E0;
+    color: #EFF2F5;
+    cursor: pointer;
+}
+
+.register-eye {
+    align-items: center;
+    justify-content: center;
+    font-size: 30;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.register-registerInputDate{
+    display: flex;
+    align-items: center;
+    color: #642D64;
+    background-color: white;
+    border-radius: 25px;
+    padding: 3px;
+    width: 98%;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.register-registerInputDate svg {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.register-registerInputDate input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: #1566E0;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h4{
+    cursor: pointer;
+}
